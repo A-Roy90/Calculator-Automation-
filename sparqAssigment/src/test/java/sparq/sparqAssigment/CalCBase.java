@@ -18,7 +18,7 @@ public static WebDriver driver;
 	public void browserLaunch(String url) throws InterruptedException
 	{
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Radha\\Preparations\\Seed Infotech\\set up\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "\\src\\test\\resources\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(url);
 		Thread.sleep(2000);
